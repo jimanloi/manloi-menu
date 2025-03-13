@@ -16,3 +16,23 @@ export function createCategoryButton(foodItems = {}, domElement) {
         domElement.appendChild(newButton);
     }
 }
+
+export function showAllFood(foodItems = {}, domElement) {
+    Object.values(foodItems).forEach((item) => {
+        let itemDiv = document.createElement('div');
+        itemDiv.classList.add('food-item');
+
+        //Add title
+        const title = document.createElement('h2');
+        title.innerText = item.name;
+        itemDiv.appendChild(title);
+
+        //Add photo
+        const photo = document.createElement('img');
+        photo.src = item.photo || './photos/default.png';
+        photo.alt = item.name;
+        itemDiv.appendChild(photo);
+
+        domElement.append(itemDiv);
+    });
+}

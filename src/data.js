@@ -1,7 +1,7 @@
 export const allFood = {
     sourdoughBread: {
         name: 'Sourdough Bread',
-        photo: './photos/sourdough-bread.JPG',
+        photo: './src/photos/sourdough-bread.jpg',
         type: 'Boulangerie/Patisserie',
         ingredient: {
             breadFlour: '450g',
@@ -13,6 +13,7 @@ export const allFood = {
 
     chickenPie: {
         name: 'Chicken Pie',
+        photo: './src/photos/default.png',
         type: 'Baked dishes',
         ingredient: {
             dough: '2 pâtes feuilletées',
@@ -24,7 +25,7 @@ export const allFood = {
 
     cinnamonRoll: {
         name: 'Cinnamon Roll',
-        photo: './photos/cinnamon-roll.jpg',
+        photo: './src/photos/cinnamon-roll.jpg',
         type: 'Boulangerie/Patisserie',
         ingredient: {
             dough: {
@@ -46,7 +47,7 @@ export const allFood = {
     },
     lemonade: {
         name: 'Homemade Lemonade',
-        photo: './photos/default.png',
+        photo: './src/photos/default.png',
         type: 'Drinks'
     }
 };
