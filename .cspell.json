@@ -1,12 +1,16 @@
 {
   "language": "en",
   "words": [
-    "Nepo",
+    "Boulangerie",
     "Coverate",
-    "wireframe",
+    "feuilletées",
     "lcov",
+    "Manloi",
+    "Nepo",
+    "pâtes",
     "Pellegrini",
-    "stackoverflow"
+    "stackoverflow",
+    "wireframe"
   ],
   "ignorePaths": [
     "node_modules/**",
