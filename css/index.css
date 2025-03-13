@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
 *,
 *::before,
 *::after {
@@ -7,6 +9,52 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #565454;
+    font-family: 'Zain', Arial, Helvetica, sans-serif;
+    background-color: #f8eeda;
+    color: #4a3711;
+}
+
+/* header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+h1 {
+    font-family: 'Tangerine';
+    font-size: 3rem;
+    margin: 10px;
+}
+
+header p {
+    font-family: 'Zain';
+    font-size: 1.5rem;
+}
+
+/* Categories */
+
+.category-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-buttons button {
+    height: 3rem;
+    min-width: 120px;
+    width: auto;
+    padding: 10px;
+    margin: 20px 5px;
+    border: 1px solid #4a3711;
+    border-radius: 10px;
+    font-family: 'Zain', sans-serif;
+    font-size: 1.2rem;
+    background-color: #fff9f9;
+    color: #4a3711;
+    cursor: pointer;
 }
