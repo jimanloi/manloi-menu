@@ -1,4 +1,4 @@
-import { createCategoryButton } from './functions.js';
+import { createCategoryButton, showAllFood } from './functions.js';
 import { allFood } from './data.js';
 
 console.log('--begin--');
@@ -14,3 +14,5 @@ document.addEventListener(
     'load',
     createCategoryButton(allFood, dom.categoryContainer)
 );
+
+showAllFood(allFood, dom.displayContainer);

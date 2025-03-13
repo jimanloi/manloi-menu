@@ -58,3 +58,31 @@ header p {
     color: #4a3711;
     cursor: pointer;
 }
+
+/* display */
+
+.display {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 50px;
+    width: 600px;
+    justify-self: center;
+}
+
+.food-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.food-item h2 {
+    font-size: 2rem;
+    padding-top: 15px;
+}
+
+.food-item img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
